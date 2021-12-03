@@ -41,12 +41,12 @@ class Login extends Component{
                     <button type="submit" className="btn btn-primary btn-block btn-acceso ">
                         Acceso
                     </button>
-                    <Link to="/registro"><button type="button" className="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <Link to="/registro"><button type="button" className="btn btn-danger">
                         Registrarse
                     </button>  </Link>   
                     <hr/>
-                    <div className="text-center">
-                        <a className="small" href="#">¿Has olvidado tu contraseña?</a>
+                    <div  className="text-center">
+                        <a className="small" href="/">¿Has olvidado tu contraseña?</a>
                     </div>                
                     
                 </form>

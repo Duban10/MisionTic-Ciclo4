@@ -10,7 +10,7 @@ export function Registro() {
               <div className="text-center">
                   <h1 className="h4 text-gray-900 mb-4">!Crea una cuenta!</h1>
               </div>
-              <form className="user" action="" method="post" enctype="multipart/form-data">
+              <form className="user" action="" method="post">
                   <div className="form-group row">
                       <div className="col-sm-6 mb-3 mb-sm-0">
                           <input type="text" className="form-control form-control-user" id="nombre" name="nombre"

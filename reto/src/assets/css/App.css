@@ -6,14 +6,54 @@
   margin-right: 10px;
 }
 
-.footer {
+
+
+#footer{
   background-color: rgba(0, 0, 0, 0.2);
   position: absolute;
   bottom: 0px;
   z-index: 0;
+  text-align: center;
+  width: 100%;
+  height: 70px;
+  line-height: 70px;
+  color: #444;
+}
+
+#footer p {
+  margin: 0px;
+  padding: 0px;
 }
 
 .App-logo{
   width: 470px;
   height: 400px;  
 }
+
+.clearfix{
+  clear:both;
+  float:none;
+}
+
+.modal-body label{
+  display: block;
+  font: 1rem 'Fira Sans', sans-serif;
+  margin-bottom: 5px;
+}
+
+.i-calendar{
+  margin-bottom: 5px;
+}
+
+.btn-cobro{
+  margin-right: 10px;
+}
+
+.btn-user{
+  margin-bottom: 10px;
+}
+nav .input-group .e-perfil{
+  margin-left: 10px !important;
+}
+
+
