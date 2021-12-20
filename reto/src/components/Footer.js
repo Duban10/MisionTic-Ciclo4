@@ -3,7 +3,7 @@ const Footer = () => {
         <footer id="footer">
             <div className="center">
                 <p>
-                    &copy; Sistema de Peages - Departamento del Huila 
+                    &copy; Sistema de Peajes - Departamento del Huila 
                 </p>
             </div>
         </footer>

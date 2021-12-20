@@ -1,4 +1,3 @@
-import { Input } from "./Input";
 
 
 export function Modal(){
@@ -27,7 +26,7 @@ export function Modal(){
                             
                             min="2021-01-01" max="2021-12-31"/>
                     <label for="calendar" className="l-calendar">Nombre del peaje:</label>
-                    <Input />
+                    <input type="text"  className="form-control" id="" name=""/>
                     
                 </div>
                 <div className="modal-footer">
